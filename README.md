@@ -379,7 +379,7 @@ In this section, there is a daily report and cummulative report of all the provi
 ![Testing](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Testing1.png)
 
 ###### Ages:
-In this scetion, you can fetch age report either by number or by gender which is further divided into the percentage by showing in the form of piec chart. 
+In this section, you can fetch age report either by number or by gender which is further divided into the percentage by showing in the form of piec chart. 
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age1.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age2.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age3.png)
