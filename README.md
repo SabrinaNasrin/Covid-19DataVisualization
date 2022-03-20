@@ -102,6 +102,7 @@ if selected == "Home":
     st.image("giphy-downsized.gif", width=700)
 ```
 ###### Cases
+This is the code for Cases page. `st.radio` is for radio buttons. Here, `st.date_input` is used to select date picker. In the cumulative report option, an `animation frame` and `animation group` is used to show the animation. `px.bar` and `px.pie` is for bar chart and pie chart.
 ```
 # Cases
 if selected == "Cases":
@@ -143,6 +144,15 @@ if selected == "Cases":
         st.write(fig4)
 ```
 ###### Mortality
+Here, these lines are for making multiselect option for provinces.
+```
+ province_options = province_data['Province'].unique().tolist()
+        province_select = st.multiselect(
+            'Select Province', province_options, 'Alberta')
+        province_data = province_data[province_data['Province'].isin(
+            province_select)]
+```
+This is the code for morality page. In this page, a range slider is used to change the dates.
 ```
 # Mortality
 if selected == "Mortality":
@@ -221,6 +231,7 @@ if selected == "Mortality":
         st.write(fig3)
 ```
 ###### Recovered
+This is the code for recovered page. `st.selectbox` is used to select among other options. `px.line` is for the line chart.
 ```
 # Recovered
 if selected == "Recovered":
@@ -263,6 +274,7 @@ if selected == "Recovered":
 
 ```
 ###### Testing 
+This is the code for testing page.
 ```
 # Testing
 if selected == "Testing":
@@ -304,7 +316,8 @@ if selected == "Testing":
         fig2.update_layout(width=800)
         st.write(fig2)
 ```
-###### Age wise Data
+##### Age wise Data
+This is the code for age wise data page. For this we have used [Age Dataset](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Data/datasetage.csv).
 ```
 # Age Wise Data
 if selected == "Age wise Data":
