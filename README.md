@@ -390,6 +390,7 @@ In this section, there is a select box, where you can either fetch the daily rec
 ###### Testing
 In this section, there is a daily report of Canada and provinces by using multiselect and cumulative report of all the provinces regarding the recovered cases.
 ![Testing](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Testing1.png)
+![Testing](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/testing2.png)
 
 ###### Ages:
 In this section, you can fetch age wise report either by number or by gender which is further divided into the percentage by showing in the form of pie chart. 
