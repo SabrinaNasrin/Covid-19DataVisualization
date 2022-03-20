@@ -355,23 +355,31 @@ if selected == "Age wise Data":
 This is the homepage of our website. In the homepage, there is a sidebar with navigation menu.
 ![Homepage](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/home.png)
 ###### Cases:
+If you click on the Daily report button, it will show the daiy report of the covid cases on that particular day.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases1.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases2.png)
+If you click on the Cumulative report, it will show a consolidate confimed cases of all the provinces.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases3.png)
+If you click on the Pie chart, it will show province wise confirmed cases in percentage.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases4.png)
 
 ###### Mortality
+If you click on the Cumulative report, it will show a consolidate death report of all the provinces.
 ![Mortality](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/mortality2.png)
+If you click on the Pie chart, it will show province wise death reports in percentage.
 ![Mortality](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Mortality3.png)
 
 ###### Recovered
+In this section, there is a select box, where you can either fetch the daily recovered reports by province or by date.
 ![Recovered](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/recovered1.png)
 ![Recovered](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/recovered2.png)
 
 ###### Testing
+In this section, there is a daily report and cummulative report of all the province regarding the recovered cases.
 ![Testing](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Testing1.png)
 
 ###### Ages:
+In this scetion, you can fetch age report either by number or by gender which is further divided into the percentage by showing in the form of piec chart. 
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age1.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age2.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age3.png)
