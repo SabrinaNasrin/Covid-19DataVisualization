@@ -10,6 +10,7 @@ This project is done as a part of MM-802 course.
 * [data](https://github.com/SabrinaNasrin/Covid-19DataVisualization/tree/main/Data)
 * [giphy-downsized.gif](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/giphy-downsized.gif)
 
+
 ##### IDE:
 * Visual Studio Code 1.65.2.0
 
@@ -36,6 +37,17 @@ Install the following libraries in the system:
 * Open "Terminal" of VSCode
 * In the Terminal, write `streamlit run app.py`, press Enter
 * It will open the website in the browser
+* For Mac users change the following code in app.py in the specified line as mentioned:
+```
+# On line 16 replace the code with this line: 
+df = pd.read_csv("data/cases_timeseries_canada.csv")
+
+# On line 20 replace the code with this line:
+province_data = pd.read_csv("data/cases_timeseries_prov.csv")
+
+# On line 253, replace the code with this line:
+ageData = pd.read_csv("data/datasetage.csv")
+```
 
 ##### Description of Code:
 ###### Importing Libraries
