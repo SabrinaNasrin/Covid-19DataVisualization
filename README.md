@@ -64,11 +64,11 @@ We have used two datasets for cases, mortality, recovered and testing. They are-
 `df.columns` and `province_data.columns` are for assigning the columns of the dataset.
 `pd.to_datetime` is used to convert the given argument to datetime and `dt.strftime` convert to index using specified date_format '%Y-%m-%d'.
 ```
-df = pd.read_csv("data\cases_timeseries_canada.csv")
+df = pd.read_csv("Data\cases_timeseries_canada.csv")
 df.columns = ["Country", "Date", "DailyCasesCountry", "CumulativeDailyCases_country", "DailyDeathsCountry",
               "CumulativeDailyDeaths", "DailyRecoveredCountry", "CumulativeDailyRecoveredCountry", "DailyTestingCountry", "CumulativeDailyTestingCountry"]
 df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%Y-%m-%d')
-province_data = pd.read_csv("data\cases_timeseries_prov.csv")
+province_data = pd.read_csv("Data\cases_timeseries_prov.csv")
 province_data.columns = ["Country", "prov_code", "Province", "Date", "Daily_Cases", "Cumulative_Cases", "Daily_Deaths",
                          "Cumulative_Deaths", "Daily_Recovered", "Cumulative_Recovered", "Daily_Testing", "Cumulative_Testing"]
 province_data['Date'] = pd.to_datetime(
@@ -325,7 +325,7 @@ if selected == "Age wise Data":
     #  Age Distribution of COVID-19 Cases in Canada
     We have detailed case report data from 3,284,725 cases. We know the age of patients in 99.96% of cases, and both age and gender in 99.70% of cases Of the cases reported in Canada so far, 52.7% were female and 36.7% were between 20 and 39 years old.
     """)
-    ageData = pd.read_csv("data\datasetage.csv")
+    ageData = pd.read_csv("Data\datasetage.csv")
 
     ageData.columns = ["Age group (years)", "Number of cases with case reports", "Percentage", "Number of male cases", "Number of female cases"
                        ]
