@@ -91,7 +91,7 @@ with st.sidebar:
                 "nav-link-selected": {"background-color": "black", "text-color": "white"}, }
     )
   ```
-###### Homepage
+##### Homepage
 If "Home" is selected then user will go to the homepage.
 ```
 if selected == "Home":
@@ -101,7 +101,7 @@ if selected == "Home":
     """)
     st.image("giphy-downsized.gif", width=700)
 ```
-###### Cases
+##### Cases
 This is the code for Cases page. `st.radio` is for radio buttons. Here, `st.date_input` is used to select date picker. In the cumulative report option, an `animation frame` and `animation group` is used to show the animation. `px.bar` and `px.pie` is for bar chart and pie chart.
 ```
 # Cases
@@ -143,7 +143,7 @@ if selected == "Cases":
                       names="Province", color_discrete_sequence=px.colors.sequential.Plasma_r)
         st.write(fig4)
 ```
-###### Mortality
+##### Mortality
 Here, these lines are for making multiselect option for provinces.
 ```
  province_options = province_data['Province'].unique().tolist()
@@ -230,7 +230,7 @@ if selected == "Mortality":
                       names="Province", color_discrete_sequence=px.colors.sequential.Plasma_r)
         st.write(fig3)
 ```
-###### Recovered
+##### Recovered
 This is the code for recovered page. `st.selectbox` is used to select among other options. `px.line` is for the line chart.
 ```
 # Recovered
@@ -273,7 +273,7 @@ if selected == "Recovered":
         st.write(fig2)
 
 ```
-###### Testing 
+##### Testing 
 This is the code for testing page.
 ```
 # Testing
@@ -364,35 +364,35 @@ if selected == "Age wise Data":
      * Recovered
      * Testing
      * Age wise Data
-###### Homepage:
+##### Homepage:
 This is the homepage of our website. In the homepage, there is a sidebar with navigation menu.
 ![Homepage](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/home.png)
-###### Cases:
-If you click on the Daily report button, it will show the daiy report of the covid cases on that particular day.
+##### Cases:
+If you click on the Daily report button, it will show the daily report of the covid cases on that particular date range.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases1.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases2.png)
-If you click on the Cumulative report, it will show a consolidate confimed cases of all the provinces.
+If you click on the Cumulative report, it will show an animation of consolidate confimed cases of all the provinces on a particular date range.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases3.png)
 If you click on the Pie chart, it will show province wise confirmed cases in percentage.
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/cases4.png)
 
 ###### Mortality
-If you click on the Cumulative report, it will show a consolidate death report of all the provinces.
+If you click on the Cumulative report, it will show a consolidate death report of all the provinces. There is a range slider to change the date range.
 ![Mortality](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/mortality2.png)
 If you click on the Pie chart, it will show province wise death reports in percentage.
 ![Mortality](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Mortality3.png)
 
 ###### Recovered
-In this section, there is a select box, where you can either fetch the daily recovered reports by province or by date.
+In this section, there is a select box, where you can either fetch the daily recovered reports by province or Canada or cumulative recovered report by province.
 ![Recovered](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/recovered1.png)
 ![Recovered](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/recovered2.png)
 
 ###### Testing
-In this section, there is a daily report and cummulative report of all the province regarding the recovered cases.
+In this section, there is a daily report of Canada and provinces by using multiselect and cumulative report of all the provinces regarding the recovered cases.
 ![Testing](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/Testing1.png)
 
 ###### Ages:
-In this section, you can fetch age report either by number or by gender which is further divided into the percentage by showing in the form of piec chart. 
+In this section, you can fetch age wise report either by number or by gender which is further divided into the percentage by showing in the form of pie chart. 
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age1.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age2.png)
 ![Cases](https://github.com/SabrinaNasrin/Covid-19DataVisualization/blob/main/Website_ScreenShots/age3.png)
